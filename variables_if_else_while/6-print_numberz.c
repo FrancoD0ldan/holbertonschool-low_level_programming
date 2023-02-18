@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * main - start
- * Return: always (0)
+ * Return: always 0
+ *
  *
  */
-int maind(void)
-
+int main(void)
 {
 	int x;
 
