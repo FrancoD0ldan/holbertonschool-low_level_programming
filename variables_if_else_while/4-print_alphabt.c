@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * msin - start
+ * main - start
  * Return: always 0
  *
  */
