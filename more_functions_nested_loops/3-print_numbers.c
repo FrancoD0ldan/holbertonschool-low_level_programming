@@ -1,18 +1,20 @@
 #include "main.h"
 #include <stdio.h>
 /**
- *_putchar - check the code
+ * _putchar - check the code.
  *
- * Return: Always 0.
+ * Return: Always 0
  */
 void
 print_numbers(void)
 {
-	int s;
+	int num = 48;
 
-	for (s = 48; s <= 57; s++)
+	while (num <= 57)
 	{
-		_putchar(s);
+	_putchar(num);
+	num++;
 	}
+
 	_putchar('\n');
 }
