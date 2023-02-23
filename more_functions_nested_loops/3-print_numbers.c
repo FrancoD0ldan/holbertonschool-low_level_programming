@@ -12,7 +12,7 @@ print_numbers(void)
 
 	while (num <= 57)
 	{
-	_putchar(num);
+		_putchar(num);
 	num++;
 	}
 
