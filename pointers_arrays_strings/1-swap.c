@@ -3,18 +3,16 @@
 
 /**
  * main - check the code
- *
+ *@a: number
+ *@b: number
  * Return: Always 0.
  */
-int main(void)
+void
+swap_int(int *a, int *b)
 {
-	int a;
-	int b;
+	int tmp;
 
-	a = 98;
-	b = 42;
-	printf("a=%d, b=%d\n", a, b);
-	swap_int(&a, &b);
-	printf("a=%d, b=%d\n", a, b);
-	return (0);
+	tmp = *a;
+	*a = *b;
+	*b = tmp;
 }
