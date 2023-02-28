@@ -1,22 +1,18 @@
+#include "main.h"
 #include <stdio.h>
-#include <string.h>
 
 /**
  * main - check the code
  *
- * Return: Always 0
+ * Return: Always 0.
  */
-
 int main(void)
-
 {
-	char *str;
-	char len;
+    char *str;
+    int len;
 
-	str = "My first strlen!";
-	len = strlen(str);
-	printf("%d\n", len);
-
-	return (0);
-
+    str = "My first strlen!";
+    len = _strlen(str);
+    printf("%d\n", len);
+    return (0);
 }
