@@ -10,11 +10,13 @@
 int main(void)
 
 {
-	char a[20] = "My first strlen!";
-	char b[20] = {'M', 'y', 'f', 'i', 'r', 's', 't', 's', 't', 'r', 'l', 'e', 'n', '\0'};
+	char *str;
+	char len;
 
-	printf("length of a string a = %zu \n", strlen(a));
-	printf("length of a string b = %zu \n", strlen(b));
+	str = "My first strlen!";
+	len = strlen(str);
+	printf("%d\n", len);
 
 	return (0);
+
 }
