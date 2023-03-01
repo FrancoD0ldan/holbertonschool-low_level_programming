@@ -4,11 +4,11 @@
 void
 _puts(char *str)
 {
-	int g;
+	int x;
 
-	for (g = 0; str[g] != '\0'; g++)
+	for (x = 0; str[x] != '\0'; x++)
 	{
-		putchar(str[g]);
+		putchar(str[x]);
 	}
 	_putchar ('\n');
 }
